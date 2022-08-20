@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Briar Mesh Jam 2022</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/white.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h3>P2P MESSAGING WITH BRIAR</h3>
+				<img src="./assets/briar_icon_color.svg" width="300px" />
+				<aside><a href="https://reticulum.space/briar">https://reticulum.space/briar</a></aside>
+			</section>
+			<section>
+				<blockquote>"Briar is a messaging app designed for activists, journalists, and anyone else who needs a
+					safe, easy and robust way to communicate."</blockquote>
+			</section>
+			<section>
+				<img src="./assets/e2ee.png" />
+			</section>
+			<section>
+				<img src="./assets/p2p.png" />
+			</section>
+			<section>
+				<img src="./assets/briar-p2p.png" />
+				<p>and potentially others...</p>
+			</section>
+			<section>
+				<h1>
+					<ol>
+						<li>Security</li>
+						<li>Resiliency</li>
+					</ol>
+				</h1>
+			</section>
+			<section>
+				<h3>Resiliency is Important</h3>
+				<blockquote>"In 2021, Access Now and the #KeepItOn coalition documented at least <b>182</b> internet
+					shutdowns
+					in <b>34</b> countries."</blockquote>
+				<a href="https://www.accessnow.org/keepiton/" target="_blank">https://www.accessnow.org/keepiton/</a>
+			</section>
+			<section>
+				<img src="./assets/wildfire.jpg" />
+				<a href="https://nico.dorfbrunnen.eu/posts/2021/briar-disaster/" target="_blank">"Confronting Briar with
+					disasters" by Nico Alt</a>
+			</section>
+			<section>
+				<h1>
+					Privacy vs Connectivity
+				</h1>
+			</section>
+			<section><img src="./assets/public-mesh.png" /></section>
+			<section>
+				<img src="./assets/tor-security-settings-safest.png" />
+			</section>
+			<section>
+				<h3>Solving Hard Problems with UI/UX</h3>
+				<ul>
+					<li>PGP E-Mail vs Briar</li>
+				</ul>
+			</section>
+			<section>
+				<h3>The University Problem</h3>
+				<img src="./assets/university-problem0.png" />
+			</section>
+			<section>
+				<h3>The University Problem</h3>
+				<img src="./assets/university-problem1.png" />
+			</section>
+			<section>
+				<img src="./assets/groups-0-1.png" />
+				<a style="font-size: .5em" href="https://github.com/paul-lorenc/briar-desktop-ui-concept"
+					target="_blank">https://github.com/paul-lorenc/briar-desktop-ui-concept</a>
+			</section>
+			<section>
+				<img src="./assets/thunderbird.png" />
+			</section>
+			<section>
+				<h3>Work in Progress</h3>
+				<ul>
+					<li>Briar Mailbox</li>
+					<li>Briar Desktop group chats, blogs, mailbox support</li>
+					<li>Experimental LoRa Transport</li>
+					<li>WiFi Halow???</li>
+				</ul>
+			</section>
+			<section>
+				community thank you TODO
+			</section>
+			<section>
+				<h3>Get Involved</h3>
+				<ul>
+					<li>#briar on libera.chat</li>
+					<li><a href="ircs://irc.oftc.net:6697/briar" target="_blank">ircs://irc.oftc.net:6697/briar</a> & <a
+							href="https://www.oftc.net/" target="_blank">OFTC</a></li>
+					<li><a href="https://matrix.to/#/#briar:matrix.org"
+							target="_blank">https://matrix.to/#/#briar:matrix.org</a></li>
+
+				</ul>
+			</section>
+			<section>
+				<h3>Get Briar</h3>
+				<ul>
+					<li><a href="https://briarproject.org/download-briar/" target="_blank">Android</a>
+					</li>
+					<li><a href="https://briarproject.org/download-briar-desktop/" target="_blank">Linux</a>
+				</ul>
+				<h6>Share app offline:</h6>
+				Settings -> "Share this app offline"
+			</section>
+			<section>
+				<a href="https://briarproject.org/manual/" target="_blank">https://briarproject.org/manual/</a>
+			</section>
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
+</html>
